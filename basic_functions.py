@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-@author: nxtehr
+@author: Niloofar Tehrani
 '''
 
 #import the required libraries
@@ -58,7 +58,7 @@ def front_or_back(sheetname,path):
     return raw_data 
 
 #uncomment the next 3 lines to check the resuls of the upper function
-#path = 'C:/Users/nxtehr/Documents/Q&P/Q&P tensile test files/Q&P Files/plasic strain_new.xlsx'
+#path = ''
 #front = front_or_back('front',path)
 #back = front_or_back('back',path)
 
@@ -111,7 +111,7 @@ def corr_front_or_back(sheetname,path, save_fig_yn = 'n', plot = 'n'):
     return corr_f_or_b_DF
             
 #uncomment the next 3 lines to check the resuls of the upper function
-#path = 'C:/Users/nxtehr/Documents/Q&P/Q&P tensile test files/Q&P Files/plasic strain_new.xlsx'
+#path = ''
 #a = corr_front_or_back('front',path, save_fig_yn = 'n', plot = 'n')
 
 
